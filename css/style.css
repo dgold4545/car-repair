@@ -195,8 +195,7 @@ ul {
 .info {
   transform: translateY(-50%);
 }
-.container {
-}
+
 .wrapper {
   display: flex;
   margin: 0 -10px;
@@ -358,8 +357,7 @@ ul {
   padding: 115px 0;
   background-color: #171616;
 }
-.container {
-}
+
 .about__wrapper {
   display: flex;
   justify-content: space-between;
