@@ -54,6 +54,9 @@ ul {
   text-decoration: none;
   color: #fff;
   background-color: #db2512;
+  cursor: pointer;
+  outline: 0;
+  border: 0;
   transition: background-color 250ms;
 }
 
@@ -61,6 +64,9 @@ ul {
   background-color: #b2190b;
 }
 
+.text-upper {
+  text-transform: uppercase;
+}
 /* HEADER start */
 .header {
   width: 100%;
@@ -372,7 +378,6 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.15em;
   text-transform: uppercase;
-  color: #fff;
   margin-bottom: 35px;
 }
 .about__text {
@@ -435,3 +440,128 @@ ul {
 }
 
 /* <!-- /Process --> */
+
+/* <!-- Contacts --> */
+.contacts {
+  padding: 100px 0;
+  background-color: #171616;
+}
+
+.contacts .block__title {
+  margin-bottom: 40px;
+}
+.text-white {
+  color: #fff;
+}
+
+.contacts__form {
+  max-width: 440px;
+}
+.form__row {
+  display: flex;
+  margin: 0 -20px;
+}
+.form__group {
+  flex: 1;
+  padding: 0 20px;
+  position: relative;
+  margin-bottom: 30px;
+}
+.input {
+  width: 100%;
+  font-family: inherit;
+  outline: 0;
+  border: 0;
+  border-bottom: 1px solid #fff;
+  background-color: transparent;
+
+  padding: 9px 0;
+  color: #fff;
+
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.5;
+  letter-spacing: 0.15em;
+}
+.input:focus + .label {
+  transform: translateY(-15px);
+  font-size: 12px;
+}
+
+.input:not(:placeholder-shown) + .label {
+  transform: translateY(-15px);
+  font-size: 12px;
+}
+
+.label {
+  position: absolute;
+  top: 0;
+  left: 20px;
+  font-family: inherit;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.5;
+  letter-spacing: 0.15em;
+  color: #fff;
+  transition: transform 250ms, font-size 250ms;
+}
+
+.textarea {
+  min-height: 130px;
+  width: 100%;
+  font-family: inherit;
+  outline: 0;
+  border: 0;
+  border-bottom: 1px solid #fff;
+  background-color: transparent;
+
+  padding: 9px 0;
+  color: #fff;
+
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.5;
+  letter-spacing: 0.15em;
+  resize: vertical;
+}
+
+.textarea:focus + .label {
+  transform: translateY(-15px);
+  font-size: 12px;
+}
+
+.textarea:not(:placeholder-shown) + .label {
+  transform: translateY(-15px);
+  font-size: 12px;
+}
+
+/* <!-- /Contacts --> */
+
+/* Footer */
+
+.footer {
+}
+
+.footer__wrapper {
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.copyright {
+  font-size: 15px;
+  line-height: 1.5;
+  letter-spacing: 0.15em;
+  color: #000;
+}
+.footer__soc {
+  display: flex;
+}
+.footer__soc-link {
+  margin-right: 22px;
+  text-decoration: none;
+}
+.footer__soc-link:last-child {
+  margin-right: 0;
+}
+/* /Footer */
