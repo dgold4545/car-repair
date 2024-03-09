@@ -451,6 +451,7 @@ ul {
 
 .contacts .block__title {
   margin-bottom: 40px;
+  text-align: center;
 }
 .text-white {
   color: #fff;
@@ -458,6 +459,7 @@ ul {
 
 .contacts__form {
   max-width: 440px;
+  margin: 0 auto;
 }
 .form__row {
   display: flex;
