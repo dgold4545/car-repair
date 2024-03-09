@@ -168,9 +168,7 @@
 
 @media (max-width: 560px) {
 
-  .nav {
-    display: none;
-  }
+  
 
   .header__logo img {
     height: 45px;
