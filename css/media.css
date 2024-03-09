@@ -160,9 +160,11 @@
   }
 }
 
-/* @media (max-width: 768px) {
-  
-} */
+@media (max-width: 710px) {
+  .nav {
+    display: none;
+  }
+}
 
 @media (max-width: 560px) {
 
